@@ -1,0 +1,32 @@
+.background-grey {
+background-color: grey;
+height: 20px;
+}
+
+.fuel-level {
+background-color: orange;
+height: 20px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.fuel-wrapper {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fuel-borders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
+.fuel-borders div {
+  flex-grow: 1;
+  border-right: 1px solid white;
+}
